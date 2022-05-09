@@ -1,0 +1,46 @@
+body{
+    background-color:rgb(36, 52, 107);
+    margin: 40px;
+}
+
+.button{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 50px;
+    border: 3px solid #3c67e3;
+    border-radius: 12px;
+}
+
+.button:hover{
+    animation: pulsate 1s ease-in-out;
+}
+
+@keyframes pulsate {
+    0% {
+        box-shadow: 
+        0 0 25px #5ddcff,
+        0 0 50px #4e30c2;
+}
+}
+
+.button_2{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 50px;
+    border: 3px solid #55e33c;
+    border-radius: 12px;
+}
+
+.button_2:hover{
+    animation: pulsate 1s ease-in-out;
+}
+
+@keyframes pulsate {
+    0% {
+        box-shadow: 
+        0 0 25px #5ddcff,
+        0 0 50px #4e30c2;
+}
+}
